@@ -1,0 +1,58 @@
+# macOS / editor noise
+.DS_Store
+*.swp
+*.swo
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+pattern/
+
+# Local/private notes
+product.md
+PRODUCT.md
+
+# Raw datasets and downloaded media
+data/
+data/youtube/
+data/rehab24/videos/
+data/rehab24/*.zip
+data/rehab24/3d_joints/
+data/ec3d/
+external/
+
+# Live/demo outputs
+src/live_captures/
+codex/live_captures/
+*.log
+
+# Large or generated model/data artifacts not needed for the live demo
+src/artifacts/*landmarks*.npz
+src/artifacts/squat_features.csv
+src/artifacts/squat_mlp*.pt
+src/artifacts/squat_mlp*_metrics.json
+src/artifacts/ec3d_*.pt
+src/artifacts/ec3d_*metrics.json
+src/artifacts/rehab24_mediapipe_mlp*.pt
+src/artifacts/rehab24_mediapipe_mlp*_metrics.json
+src/artifacts/youtube_contact_sheet.jpg
+src/artifacts/youtube_pose_sample_report.json
+codex/artifacts/*landmarks*.npz
+codex/artifacts/squat_features.csv
+codex/artifacts/squat_mlp*.pt
+codex/artifacts/squat_mlp*_metrics.json
+codex/artifacts/ec3d_*.pt
+codex/artifacts/ec3d_*metrics.json
+codex/artifacts/rehab24_mediapipe_mlp*.pt
+codex/artifacts/rehab24_mediapipe_mlp*_metrics.json
+codex/artifacts/youtube_contact_sheet.jpg
+codex/artifacts/youtube_pose_sample_report.json
+
+# Duplicate legacy model folder
+models/

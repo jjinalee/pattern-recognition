@@ -1,0 +1,80 @@
+{
+  "jobs": 9,
+  "include_half_profile": false,
+  "min_visibility": 0.1,
+  "pose_model": "/Users/jinalee/Desktop/pattern recogition/codex/artifacts/pose_landmarker_full.task",
+  "max_width": 960,
+  "videos": {
+    "PM_008-Camera18-30fps-transposed": {
+      "candidate_frames": 1942,
+      "kept_frames": 1942,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 38.03
+    },
+    "PM_022-Camera18-30fps-transposed": {
+      "candidate_frames": 812,
+      "kept_frames": 812,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 15.34
+    },
+    "PM_029-Camera18-30fps-transposed": {
+      "candidate_frames": 1130,
+      "kept_frames": 1130,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 20.68
+    },
+    "PM_038-Camera18-30fps-transposed": {
+      "candidate_frames": 892,
+      "kept_frames": 892,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 16.24
+    },
+    "PM_043-Camera18-30fps-transposed": {
+      "candidate_frames": 934,
+      "kept_frames": 934,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 19.57
+    },
+    "PM_105-Camera18-30fps-transposed": {
+      "candidate_frames": 932,
+      "kept_frames": 932,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 25.2
+    },
+    "PM_113-Camera18-30fps-transposed": {
+      "candidate_frames": 1222,
+      "kept_frames": 1222,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 22.45
+    },
+    "PM_118-Camera18-30fps-transposed": {
+      "candidate_frames": 857,
+      "kept_frames": 857,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 17.9
+    },
+    "PM_126-Camera18-30fps-transposed": {
+      "candidate_frames": 1104,
+      "kept_frames": 1104,
+      "no_pose": 0,
+      "low_visibility": 0,
+      "seconds": 23.92
+    }
+  },
+  "rows": 9825,
+  "subjects": 9,
+  "labels": {
+    "0": 2508,
+    "1": 7317
+  },
+  "out": "/Users/jinalee/Desktop/pattern recogition/codex/artifacts/rehab24_mediapipe_features.csv",
+  "landmarks": "/Users/jinalee/Desktop/pattern recogition/codex/artifacts/rehab24_mediapipe_landmarks.npz"
+}
